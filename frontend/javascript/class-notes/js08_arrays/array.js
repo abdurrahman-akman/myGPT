@@ -70,3 +70,77 @@
 // console.log(arr1)
 // arr2 = ['four']
 // console.log(arr2)
+
+
+
+
+//* Array metodlari
+// const colors = ['red', 'purple', 'black', 'yellow-lacivert', 'brown']
+
+// const cls = colors.slice()
+// console.log(cls) //orjinal Arrayin icerigini kopyalar
+
+// colors[0] = 5
+// console.log(colors)
+
+// console.log(colors.slice(2, 4))
+// console.log(colors.slice(-3))
+// console.log(colors.slice(-4,-2))
+
+//*push() yontemi
+
+// const colors = ['red', 'green'];
+// console.log(colors.length)
+// let c = 'white';
+// const d = colors.push('blue',2023,c)
+// console.log(colors)
+// console.log(colors.length)
+
+
+// const cars = ['mercedes', 'bmw', 'skoda'];
+
+// const addmarka = ['tesla', 'ferrari', 'honda']
+
+//   cars.push(addmarka)
+//   console.log(cars)
+//  cars.push(...addmarka)
+//  console.log(cars)
+// console.log(cars[3][1]);
+
+
+
+//*pop()
+// const cars = ['tesla', 'ford'];
+
+// console.log(cars.pop())
+
+// const silinen = cars.pop()
+// console.log(silinen)
+// console.log(cars.pop())
+
+
+
+//* unshift
+
+// const yemek = ['kadayıf','baklava','kebap'];
+
+// console.log(yemek.unshift('küfte'))
+// console.log(yemek)
+//  const corba = ['yüssük','buglama']
+//  const baklava = ['cevizli','fistikli']
+//  corba.unshift(...baklava)
+//  console.log(corba)
+
+
+// const dress = ['pantolon','sweatshirt','gomlek']
+
+// console.log(dress.shift())
+// console.log(dress)
+
+// const bicycle = ['dag','sehir','yaris']
+// console.log(bicycle.splice(1,0,'white'))
+// console.log(bicycle)
+//nokta kordinatlarına gore siler
+
+// console.log(dress.splice(0,2,'yelek','ceket'))
+// console.log(dress)
