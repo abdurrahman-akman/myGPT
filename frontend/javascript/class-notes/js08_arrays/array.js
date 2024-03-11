@@ -144,3 +144,35 @@
 
 // console.log(dress.splice(0,2,'yelek','ceket'))
 // console.log(dress)
+
+
+//* concat
+
+//  let color1 = [ 'red', 'green']
+//  const color2 = ['blue', 'orange']
+//  const color3 = [10, true]
+
+//  const joinedArray = color1.concat(color2, color3)
+//  console.log(joinedArray) 
+//  const destr = color1.push(...color2, ...color3)
+//  console.log(color1) 
+//  color1 = color1.concat('Black',color2,2)
+//  console.log(color1)
+
+
+//indexof lastindexof
+// const ayak = ['kundura','spor','futbol','basket','futbol','kundura','futbol']
+// console.log(ayak.indexOf('futbol'))
+// console.log(ayak.indexOf('futbol',3))
+// console.log(ayak.indexOf('kundura',2))
+// console.log(ayak.lastIndexOf('futbol'))
+// console.log(ayak[ayak.indexOf('spor')])
+
+
+// const ayak = ['kundura','spor','futbol','basket','futbol'] // orjinal arrayi değiştirir.
+
+// ayak.reverse()
+// console.log(ayak)
+
+    //* array i stringe cevirir
+    
