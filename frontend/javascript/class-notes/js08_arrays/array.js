@@ -174,5 +174,39 @@
 // ayak.reverse()
 // console.log(ayak)
 
-    //* array i stringe cevirir
+    //* reverse 
+
+    // const revrs = ['red', 'green', 'yellow', 'brown'];
+    // revrs.reverse()
+    // console.log(revrs)
     
+
+    //* join orjinal arrayi bozmaz stringe çevirir.
+
+    // const jo = ['a','b','d','u','r','r','a','h','m','a','n']
+    // console.log(jo.join());
+    // console.log(jo.join(""))
+    // console.log(jo.join("-"));
+
+
+    //* sort 
+    // const num = [111, 55, 22, 2, 11, 1, 111]
+    // num.sort()
+    // console.log(num)
+    // num.sort((a,b) => a-b)
+    // console.log(num)
+//* includes() boolean deger döndürür.ilk deger sorgulayacağımız ifade 2. deger ise index numdır
+    // const inc = [5,2,3,44,3,5,9]
+    // console.log(inc.includes(2))
+    // console.log(inc.includes(3, 2))
+
+
+
+    //* Nested Arrays
+
+    // const arr = [1, true, [6, 7, 8], [3, 'Red', 5] ]
+    // // arr.sort()
+    // arr[2].splice(1,0,'yellow')
+    // console.log(arr.length)
+    // console.log(arr)
+    // console.log(arr[3][1])
