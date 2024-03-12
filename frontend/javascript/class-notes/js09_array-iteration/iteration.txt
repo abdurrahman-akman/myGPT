@@ -1,0 +1,32 @@
+büyük  verileri saklıcağımız yerdir
+
+iterasyon diziler içerisinde dolasmak demektir .aradıgımız seyleri bulmak içerisinde
+
+metotlar sayesinde dizi içinde hazır fonksiyonlar ile dolasırız
+
+dizi isimleri cogul konulur cunku dizidir
+
+/////////////****FOREACH*****METODU******//////////////
+
+**fonksiyon içinde fonksiyon yazılır.yani forEach("parametre olarak başka bi function yazılır") 
+
+**bu tarz functionlara Call Back fonksiyonları denir
+
+*** en az bir parametre vermek zorundayız
+
+***örnegin grades.forEach((item, indis) => clg(item, indis)) bu iki parametreyi yazdımızda bize bunları verecektir 
+
+***forEach() sadece dizilerde  geçerlidir.Aynı zamanda orjinal diziyi degistirmez.Array ler de calısır.
+
+****dezavantajı ise klasik   metodlara göre daha yavas çalısırlar. for gibi fonk lara gore
+
+**** forEach metodunu clg içine alıp birşey döndürmesini beklemeyin cunku degistirmez.returnsuzdur
+
+
+//////////////////MAP METODU////////////////
+
+*** Array.map()  forEach gibi aynıdır ancak map() orjinal diziyi modifiye eder return eder.ama orjinal diziyi degistirmez yeni bir dizi olusturur
+
+*** value,indis,dizi degismez 3 lü
+
+***
