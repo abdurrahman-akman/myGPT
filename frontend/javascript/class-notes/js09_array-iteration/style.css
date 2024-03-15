@@ -1,0 +1,7 @@
+body {
+    
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100vh;
+    background: linear-gradient(to top left, #3ccf1f, #c0ceee);
+}
