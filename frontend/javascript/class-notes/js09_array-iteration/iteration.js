@@ -5,7 +5,7 @@
 console.log("****** ITERATION **********")
 
 //?-------------- ÖRNEK -------------------
-//?  Dizideki herbir fiyati konsola bastiriniz.
+//?  Dizideki herbir fiyati konsola bastiriniz.diziyi okumaya consola bastrmaya yarar
 const prices = [250, 150, 300, 500]
 
 //* KLASIK FOR
@@ -100,6 +100,9 @@ salaries
 //*             REDUCE METHOD
 //* =======================================
 
+//* akümülatif birikimli veya ardışık işlemler denir.terminal metottur yani tüketici denir.
+//* reduce result değişkenine atar en son degeri.yani reduce bir deger dondurur.
+//*yani reduce nin bitiminden sonra filter veya diger itere fonk ları kullanamayız yassaktır.
 const mayişlar = [5500, 8000, 6500, 9000, 10000, 15000, 25000]
 
 const toplamMayiş = mayişlar.reduce((toplam, deger) => toplam + deger, 0)
