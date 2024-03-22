@@ -145,6 +145,7 @@ print(data)
 
 //* ======================================================
 //*  DESTRUCTURING (ARRAY)
+//! sıra ve sayı önemlidir
 //* ======================================================
 const names = ["Ahmet", "Mehmet", "İsmet", "Saffet"]
 
@@ -158,6 +159,7 @@ console.log(ahmo, ismo, safo)
 
 //*======================================================
 //*  REST (...)
+//! 2anlamı var ya geri kalanları al veya içindeki hepsini çıkar
 //* ======================================================
 
 //? REST operatoru kullanici tarafindan girilen degerleri dizi
@@ -194,7 +196,7 @@ const topla = (a, b) => a + b
 
 console.log("SONUC:", topla(2, 5, 10, 4))
 
-//? REST (...) ile non-iterable olan sayilari iterable hale (diziye)
+//? REST (...) ile non-iterable olan sayilari iterable hale (diziye,array e)
 //? cevirmiş olduk.
 
 const toplaminiAl = (...sayilar) => {
@@ -202,6 +204,7 @@ const toplaminiAl = (...sayilar) => {
   return sayilar.reduce((t, v) => t + v, 0)
 }
 console.log("SONUC:", toplaminiAl(2, 5, 10, 4, 6, 8))
+
 
 //*==================================================
 //*  SPREAD (...)
