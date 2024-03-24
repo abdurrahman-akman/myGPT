@@ -337,5 +337,5 @@ console.log("****************")
 //? people objesindeki tum salary 'leri yazdir
 for (let v of Object.values(people)) {
   console.log(v.job)
-  // console.log(v["salary"]);
+   console.log(v["salary"]);
 }
